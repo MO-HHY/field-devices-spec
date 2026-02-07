@@ -1,0 +1,49 @@
+{
+  "repo_name": "field-devices",
+  "repo_path": "/Users/mohamedouassif/Documents/GitHub/field-devices",
+  "spec_type": "firmware-monorepo",
+  "structure_version": "1.0",
+  "created_at": "2026-02-07T12:00:00Z",
+  "generated_from": "spec-zero-lite-analysis",
+  "nodes_mapped": {
+    "01-Overview": ["node-001", "node-002", "overview-summary"],
+    "02-Foundation": ["node-003", "node-004", "node-005"],
+    "03-Middleware": ["node-006", "node-007", "node-008"],
+    "04-Drivers": ["node-009", "node-010"],
+    "05-Applications": ["node-011", "node-012", "node-013"],
+    "06-Features": ["node-014", "node-015"],
+    "07-Integration": ["node-016", "node-017"]
+  },
+  "repo_type_detection": {
+    "type": "monorepo",
+    "confidence": 0.95,
+    "characteristics": ["firmware", "iot", "multi-app", "custom-middleware"]
+  },
+  "spec_os_adaptation": {
+    "applied_at": "2026-02-07T14:30:00Z",
+    "spec_os_version": "1.0",
+    "uids_generated": {
+      "field-devices__overview__bootstrap": "01-Overview/field-devices__overview__bootstrap.md",
+      "field-devices__overview__structure": "01-Overview/field-devices__overview__structure.md",
+      "field-devices__overview__summary": "01-Overview/field-devices__overview__summary.md",
+      "field-devices__foundation__sdk-analysis": "02-Foundation/field-devices__foundation__sdk-analysis.md",
+      "field-devices__foundation__build-system": "02-Foundation/field-devices__foundation__build-system.md",
+      "field-devices__foundation__diactl-tool": "02-Foundation/field-devices__foundation__diactl-tool.md",
+      "field-devices__middleware__task-manager": "03-Middleware/field-devices__middleware__task-manager.md",
+      "field-devices__middleware__ble-utils": "03-Middleware/field-devices__middleware__ble-utils.md",
+      "field-devices__middleware__memory-helpers": "03-Middleware/field-devices__middleware__memory-helpers.md",
+      "field-devices__driver__peripheral-drivers": "04-Drivers/field-devices__driver__peripheral-drivers.md",
+      "field-devices__driver__hal-integration": "04-Drivers/field-devices__driver__hal-integration.md",
+      "field-devices__app__wearable-device": "05-Applications/field-devices__app__wearable-device.md",
+      "field-devices__app__smartband": "05-Applications/field-devices__app__smartband.md",
+      "field-devices__app__common-patterns": "05-Applications/field-devices__app__common-patterns.md",
+      "field-devices__feature__state-machines": "06-Features/field-devices__feature__state-machines.md",
+      "field-devices__feature__power-management": "06-Features/field-devices__feature__power-management.md",
+      "field-devices__integration__patterns": "07-Integration/field-devices__integration__patterns.md",
+      "field-devices__integration__final-summary": "07-Integration/field-devices__integration__final-summary.md",
+      "field-devices__index__master": "00-INDEX.md"
+    },
+    "edge_types_used": ["depends_on", "uses", "consumes", "publishes", "implements", "validates"],
+    "domains_generated": ["field-devices"]
+  }
+}
