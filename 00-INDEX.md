@@ -55,21 +55,8 @@ This repository is a monorepo for Renesas/Dialog Bluetooth Low Energy (BLE) firm
 - [[field-devices__integration__patterns|Integration Patterns]]
 - [[field-devices__integration__final-summary|Final Summary]]
 
-#### 08 - Diagrams
-- [[field-devices__diagram__index|Diagrams Index]]
-- [[field-devices__diagram__architecture-overview|Architecture Overview]]
-- [[field-devices__diagram__data-flow|Data Flow]]
-- [[field-devices__diagram__dependency-graph|Dependency Graph]]
-- [[field-devices__diagram__sequence-main-flow|Main Flow Sequence]]
-- [[field-devices__diagram__class-hierarchy|Class Hierarchy]]
-- [[field-devices__diagram__deployment|Deployment]]
-- [[field-devices__diagram__state-machine|State Machine]]
-- [[field-devices__diagram__ble-protocol|BLE Protocol]]
-- [[field-devices__diagram__driver-hierarchy|Driver Hierarchy]]
-- [[field-devices__diagram__power-modes|Power Modes]]
-
 ## Statistics
-- Total Sections: 8
-- Total Pages: 29
+- Total Sections: 7
+- Total Pages: 18
 - Tech Stack: C, Python, Renesas/Dialog SmartBond SDK, ARM CMSIS
 - Generated: 2026-02-07
